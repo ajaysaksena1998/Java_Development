@@ -1,0 +1,50 @@
+2020-03-30 02:07:51.039  INFO 3688 --- [main] c.A.f.FlightReservationApplication       : Starting FlightReservationApplication on DESKTOP-26EBBFR with PID 3688 (C:\Users\hp\Desktop\Spring WorkSpace\FlightReservation\target\classes started by Ajay Saksena in C:\Users\hp\Desktop\Spring WorkSpace\FlightReservation)
+2020-03-30 02:07:51.044  INFO 3688 --- [main] c.A.f.FlightReservationApplication       : No active profile set, falling back to default profiles: default
+2020-03-30 02:07:51.736  INFO 3688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-30 02:07:51.872  INFO 3688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 4 JPA repository interfaces.
+2020-03-30 02:07:52.394  INFO 3688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8074 (http)
+2020-03-30 02:07:52.402  INFO 3688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-30 02:07:52.403  INFO 3688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-30 02:07:52.687  INFO 3688 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-30 02:07:52.692  INFO 3688 --- [main] o.a.c.c.C.[.[.[/FlightRegistration]      : Initializing Spring embedded WebApplicationContext
+2020-03-30 02:07:52.693  INFO 3688 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1601 ms
+2020-03-30 02:07:52.820  INFO 3688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-30 02:07:52.974  INFO 3688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-30 02:07:53.020  INFO 3688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-30 02:07:53.226  INFO 3688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-30 02:07:53.448  INFO 3688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-30 02:07:53.631  INFO 3688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-03-30 02:07:54.590  INFO 3688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-30 02:07:54.602  INFO 3688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-30 02:07:55.285  WARN 3688 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-30 02:07:55.525  INFO 3688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 02:07:55.638  INFO 3688 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-03-30 02:07:55.829  INFO 3688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8074 (http) with context path '/FlightRegistration'
+2020-03-30 02:07:55.832  INFO 3688 --- [main] c.A.f.FlightReservationApplication       : Started FlightReservationApplication in 5.348 seconds (JVM running for 6.215)
+2020-03-30 02:08:04.525  INFO 3688 --- [http-nio-8074-exec-1] o.a.c.c.C.[.[.[/FlightRegistration]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 02:08:04.526  INFO 3688 --- [http-nio-8074-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-30 02:08:04.537  INFO 3688 --- [http-nio-8074-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-03-30 02:08:08.276  INFO 3688 --- [http-nio-8074-exec-3] c.A.f.Controller.UserController          : Inside showReg() method
+2020-03-30 02:08:33.304  INFO 3688 --- [http-nio-8074-exec-5] c.A.f.Controller.UserController          : Inside register() method. Registering user Users [firstName=Vijay, LastName=Shekawat, email=500061169@stu.upes.ac.in, password=vijay123]
+2020-03-30 02:08:42.175  INFO 3688 --- [http-nio-8074-exec-6] c.A.f.Controller.UserController          : Logging in user with email id 500061169@stu.upes.ac.in
+2020-03-30 02:08:42.248  INFO 3688 --- [http-nio-8074-exec-6] c.A.f.Controller.UserController          : 500061169@stu.upes.ac.in successfully logged in
+2020-03-30 02:08:50.756  INFO 3688 --- [http-nio-8074-exec-8] c.A.f.Controller.FlightController        : Inside findFlights() method
+2020-03-30 02:08:50.775  INFO 3688 --- [http-nio-8074-exec-8] c.A.f.Controller.FlightController        : Flights found are [Flights [flightNumber=SW3, operatingAirlines=South West, departureCity=NYC, arrival_city=DAL, date_of_departure=2018-02-06 00:00:00.0, estimated_departure_time=2018-02-06 10:14:07.0], Flights [flightNumber=UA1, operatingAirlines=United Airlines, departureCity=NYC, arrival_city=DAL, date_of_departure=2018-02-06 00:00:00.0, estimated_departure_time=2018-02-06 10:14:07.0]]
+2020-03-30 02:08:53.111  INFO 3688 --- [http-nio-8074-exec-9] c.A.f.Controller.ReservationController   : Inside showCompleteReservation() method
+2020-03-30 02:08:53.146  INFO 3688 --- [http-nio-8074-exec-9] c.A.f.Controller.ReservationController   : Booking Reservation for the flight Flights [flightNumber=UA1, operatingAirlines=United Airlines, departureCity=NYC, arrival_city=DAL, date_of_departure=2018-02-06 00:00:00.0, estimated_departure_time=2018-02-06 10:14:07.0]
+2020-03-30 02:09:34.854  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.Controller.ReservationController   : Inside completeReservation() method
+2020-03-30 02:09:34.855  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.services.ReservationServiceImpl    : Inside bookFlight() method
+2020-03-30 02:09:34.856  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.services.ReservationServiceImpl    : Fetching the Flight with id 10
+2020-03-30 02:09:34.863  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.services.ReservationServiceImpl    : Saving the passenger Passengers [firstName=Vijay, lastName=Shekawat, middleName=null, email=500061169@stu.upes.ac.in, phone=08744829072]
+2020-03-30 02:09:34.907  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.services.ReservationServiceImpl    : Saving the Reservation Reservations [checkedIn=false, number_of_bags=0, passenger=Passengers [firstName=Vijay, lastName=Shekawat, middleName=null, email=500061169@stu.upes.ac.in, phone=08744829072], flight=Flights [flightNumber=UA1, operatingAirlines=United Airlines, departureCity=NYC, arrival_city=DAL, date_of_departure=2018-02-06 00:00:00.0, estimated_departure_time=2018-02-06 10:14:07.0]]
+2020-03-30 02:09:34.988  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.services.ReservationServiceImpl    : Generating the Flight Itinary Report
+2020-03-30 02:09:34.988  INFO 3688 --- [http-nio-8074-exec-2] c.A.flightReservation.util.PDFGenerator  : Inside generateItinary() method
+2020-03-30 02:09:35.135  INFO 3688 --- [http-nio-8074-exec-2] c.A.flightReservation.util.PDFGenerator  : Inside generateTable() method
+2020-03-30 02:09:35.332  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.services.ReservationServiceImpl    : Emailing the Flight Itinary Report
+2020-03-30 02:09:35.332  INFO 3688 --- [http-nio-8074-exec-2] c.Ajay.flightReservation.util.EmailUtil  : Inside SendItinary() method
+2020-03-30 02:09:42.300  INFO 3688 --- [http-nio-8074-exec-2] c.A.f.Controller.ReservationController   : Reservation successfully confirmed at ID 5
+2020-03-30 02:28:39.156  INFO 3688 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-30 02:28:39.159  INFO 3688 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 02:28:39.161  INFO 3688 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-30 02:28:39.164  INFO 3688 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-30 02:28:39.171  INFO 3688 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
